@@ -1,0 +1,296 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2017-11-08 21:06:17",
+    "containerVersion": {
+        "path": "accounts/8888888888/containers/7854555/versions/0",
+        "accountId": "8888888888",
+        "containerId": "7854555",
+        "containerVersionId": "0",
+        "container": {
+            "path": "accounts/8888888888/containers/7854555",
+            "accountId": "8888888888",
+            "containerId": "7854555",
+            "name": "exporter",
+            "publicId": "GTM-5JB626W",
+            "usageContext": [
+                "WEB"
+            ],
+            "fingerprint": "1510175152782",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/8888888888/containers/7854555/workspaces?apiLink=container"
+        },
+        "tag": [
+            {
+                "accountId": "8888888888",
+                "containerId": "7854555",
+                "tagId": "1",
+                "name": "GA Event",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventValue",
+                        "value": "{{Event Value}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "{{Event Category}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{Global Settings}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "{{Event Action}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{Event Label}}"
+                    }
+                ],
+                "fingerprint": "1510174820219",
+                "firingTriggerId": [
+                    "5"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT"
+            }
+        ],
+        "trigger": [
+            {
+                "accountId": "8888888888",
+                "containerId": "7854555",
+                "triggerId": "5",
+                "name": "GA Event",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "GAEvent"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1510174483072"
+            }
+        ],
+        "variable": [
+            {
+                "accountId": "8888888888",
+                "containerId": "7854555",
+                "variableId": "2",
+                "name": "Event Action",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "eventAction"
+                    }
+                ],
+                "fingerprint": "1510173197932"
+            },
+            {
+                "accountId": "8888888888",
+                "containerId": "7854555",
+                "variableId": "1",
+                "name": "Event Category",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "eventCategory"
+                    }
+                ],
+                "fingerprint": "1510173172819"
+            },
+            {
+                "accountId": "8888888888",
+                "containerId": "7854555",
+                "variableId": "3",
+                "name": "Event Label",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "eventLabel"
+                    }
+                ],
+                "fingerprint": "1510173226598"
+            },
+            {
+                "accountId": "8888888888",
+                "containerId": "7854555",
+                "variableId": "4",
+                "name": "Event Value",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "eventValue"
+                    }
+                ],
+                "fingerprint": "1510173247784"
+            },
+            {
+                "accountId": "8888888888",
+                "containerId": "7854555",
+                "variableId": "5",
+                "name": "Global Settings",
+                "type": "gas",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "cookieDomain",
+                        "value": "auto"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "doubleClick",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setTrackerName",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useDebugVersion",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useHashAutoLink",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "decorateFormsAutoLink",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableLinkId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableEcommerce",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackingId",
+                        "value": "UA-5555555-9"
+                    }
+                ],
+                "fingerprint": "1510174112677"
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "8888888888",
+                "containerId": "7854555",
+                "type": "PAGE_URL",
+                "name": "Page URL"
+            },
+            {
+                "accountId": "8888888888",
+                "containerId": "7854555",
+                "type": "PAGE_HOSTNAME",
+                "name": "Page Hostname"
+            },
+            {
+                "accountId": "8888888888",
+                "containerId": "7854555",
+                "type": "PAGE_PATH",
+                "name": "Page Path"
+            },
+            {
+                "accountId": "8888888888",
+                "containerId": "7854555",
+                "type": "REFERRER",
+                "name": "Referrer"
+            },
+            {
+                "accountId": "8888888888",
+                "containerId": "7854555",
+                "type": "EVENT",
+                "name": "Event"
+            }
+        ],
+        "fingerprint": "0",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/8888888888/containers/7854555/versions/0?apiLink=version"
+    }
+}
