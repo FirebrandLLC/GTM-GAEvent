@@ -16,7 +16,10 @@ This is only useful if you are running Google Tag Manager and Universal Analytic
 
   ![New Tag](screenshots/import.png "Import Settings")
 
+1. Edit the Global Settings variable and set your Google Analytics Property ID.
 
+  ![New Tag](screenshots/global_settings.png "Import Settings")
+Alternatively, you could set your ID in the GA Event tag.
 
 ## License
 [Apache V2](http://www.apache.org/licenses/)
