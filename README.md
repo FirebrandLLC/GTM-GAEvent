@@ -15,7 +15,7 @@ This is only useful if you are running Google Tag Manager and Universal Analytic
 1. Import the JSON file into your current workspace using the "Merge" option.
 
   ![New Tag](screenshots/import.png "Import Settings")
-  
+
 1. Edit the Global Settings variable and set your Google Analytics Property ID.
 
   ![New Tag](screenshots/global_settings.png "Global Settings")
