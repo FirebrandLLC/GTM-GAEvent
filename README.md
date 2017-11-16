@@ -1,5 +1,6 @@
 # GTM Generic GA Event Container
-A Google Tag Manager container you can import to implement Simo Ahava's [Generic GA Event](https://www.simoahava.com/analytics/create-a-generic-event-tag/).
+A Google Tag Manager container you can import to implement Simo Ahava's [Generic GA Event](https://www.simoahava.com/analytics/create-a-generic-event-tag/).  
+Version 1.0
 
 ## Purpose
 You can reduce the redundancy in your containers by using a generic Google Analytics GTM event. Unfortunately, it takes a fair amount of clicking around to create the user variables, trigger, and tag required to implement a generic Google Analytics event.
