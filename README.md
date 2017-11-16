@@ -1,5 +1,5 @@
-# GTM Generic GA Event Container
-A Google Tag Manager container you can import to implement Simo Ahava's [Generic GA Event](https://www.simoahava.com/analytics/create-a-generic-event-tag/).  
+# GTM Generic GA Event Container Template
+A Google Tag Manager template you can import to implement Simo Ahava's [Generic GA Event](https://www.simoahava.com/analytics/create-a-generic-event-tag/).  
 Version 1.0
 
 ## Purpose
